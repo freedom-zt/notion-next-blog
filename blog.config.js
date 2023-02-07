@@ -3,7 +3,7 @@ const BLOG = {
   author: 'zhangt',
   email: 'zt345564023@gmail.com',
   // ↓ THIS BLOG LINK, NOT YOUR SOCIAL LINK ↓
-  link: 'https://blog-freedom-zt.vercel.app/', // do not end with '/'
+  link: 'https://blog-freedom-zt.vercel.app', // do not end with '/'
   description: '独立思考',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
@@ -16,8 +16,8 @@ const BLOG = {
   sortByDate: true,
   showSummary: true,
   showAbout: false,
-  showArchive: true,
-  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
+  showArchive: false,
+  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   prismjs_cdn: '', // default is cloudflare, if slow you can set 'https://npm.elemecdn.com/prismjs@1.29.0/components/'
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/Pokemon',
