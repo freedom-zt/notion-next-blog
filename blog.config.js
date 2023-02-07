@@ -3,7 +3,7 @@ const BLOG = {
   author: 'zhangt',
   email: 'zt345564023@gmail.com',
   // ↓ THIS BLOG LINK, NOT YOUR SOCIAL LINK ↓
-  link: 'https://blog-freedom-zt.vercel.app', // do not end with '/'
+  link: 'https://blog-freedom-zt.vercel.app/', // do not end with '/'
   description: 'Freedom',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
