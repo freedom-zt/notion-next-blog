@@ -1,11 +1,11 @@
 const BLOG = {
-  title: 'zhangt Blog',
-  author: 'freedom-zt',
-  email: 'zt345564023@gmail.com',
+  title: 'Stimw Blog',
+  author: 'Stimw',
+  email: 'stimwblog@gmail.com',
   // ↓ THIS BLOG LINK, NOT YOUR SOCIAL LINK ↓
-  link: 'https://blog-freedom-zt.vercel.app', // do not end with '/'
-  description: 'Freedom',
-  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  link: 'https://notion-next-blog-olive.vercel.app', // do not end with '/'
+  description: 'This gonna be an awesome website.',
+  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif'] - !!deprecated, do not modify this
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
@@ -25,7 +25,8 @@ const BLOG = {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '', // Remove the value or replace it with your own google site verification code
   },
-  notionPageId: 'eb2ef9da57c54217bbb6888d20e735d0', // DO NOT CHANGE THIS！！！
+  notionPageId:
+    process.env.NOTION_PAGE_ID || 'd3a1074627994f1b8475de6a919cb09c', // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   analytics: {
     provider: '', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
