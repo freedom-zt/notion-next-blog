@@ -5,7 +5,7 @@ const BLOG = {
   // ↓ THIS BLOG LINK, NOT YOUR SOCIAL LINK ↓
   link: 'https://blog-freedom-zt.vercel.app', // do not end with '/'
   description: 'Freedom',
-  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif'] - !!deprecated, do not modify this
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
