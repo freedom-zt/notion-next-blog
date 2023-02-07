@@ -1,17 +1,17 @@
 const BLOG = {
   title: 'zhangt Blog',
-  author: 'zhangt',
+  author: 'freedom-zt',
   email: 'zt345564023@gmail.com',
   // ↓ THIS BLOG LINK, NOT YOUR SOCIAL LINK ↓
   link: 'https://blog-freedom-zt.vercel.app', // do not end with '/'
   description: 'Freedom',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif'] - !!deprecated, do not modify this
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy this blog in a folder
-  since: 2016, // If leave this empty, current year will be used.
+  since: 2022, // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: true,
   showSummary: false,
