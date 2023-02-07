@@ -1,17 +1,17 @@
 const BLOG = {
-  title: 'Stimw Blog',
-  author: 'Stimw',
-  email: 'stimwblog@gmail.com',
+  title: 'zhangt Blog',
+  author: 'zhangt',
+  email: 'zt345564023@gmail.com',
   // ↓ THIS BLOG LINK, NOT YOUR SOCIAL LINK ↓
-  link: 'https://notion-next-blog-olive.vercel.app', // do not end with '/'
-  description: 'This gonna be an awesome website.',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  link: '/', // do not end with '/'
+  description: 'Freedom',
+  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif'] - !!deprecated, do not modify this
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy this blog in a folder
-  since: 2022, // If leave this empty, current year will be used.
+  since: 2016, // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: true,
   showSummary: false,
@@ -26,7 +26,7 @@ const BLOG = {
     googleSiteVerification: '', // Remove the value or replace it with your own google site verification code
   },
   notionPageId:
-    process.env.NOTION_PAGE_ID || 'd3a1074627994f1b8475de6a919cb09c', // DO NOT CHANGE THIS！！！
+    process.env.NOTION_PAGE_ID || 'eb2ef9da57c54217bbb6888d20e735d0', // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   analytics: {
     provider: '', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
