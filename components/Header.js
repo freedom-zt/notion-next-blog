@@ -69,7 +69,14 @@ const Header = ({ navBarTitle, fullWidth }) => {
         <div className="flex items-center">
           <Link href="/" aria-label={BLOG.title}>
             <div className="h-6">
-              <svg
+              <span
+                role="img"
+                aria-label="👨🏻‍💻"
+                style='font-family: "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols; line-height: 1em; white-space: nowrap;'
+              >
+                👨🏻‍💻
+              </span>
+              {/* <svg
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -95,7 +102,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                     <stop offset="1" stopColor="#E9E9E9" stopOpacity="0" />
                   </radialGradient>
                 </defs>
-              </svg>
+              </svg> */}
             </div>
           </Link>
           {navBarTitle ? (
