@@ -15,7 +15,7 @@ const BLOG = {
   postsPerPage: 10,
   sortByDate: true,
   showSummary: true,
-  showAbout: false,
+  showAbout: true,
   showArchive: false,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   prismjs_cdn: '', // default is cloudflare, if slow you can set 'https://npm.elemecdn.com/prismjs@1.29.0/components/'

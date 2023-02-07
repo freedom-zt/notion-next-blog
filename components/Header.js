@@ -9,11 +9,11 @@ const NavBar = () => {
   const links = [
     { id: 0, name: locale.NAV.INDEX, to: BLOG.path || '/', show: true },
     { id: 1, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
-    { id: 2, name: locale.NAV.RSS, to: '/feed', show: true },
+    { id: 2, name: locale.NAV.RSS, to: '/feed', show: false },
     { id: 3, name: locale.NAV.SEARCH, to: '/search', show: true },
   ];
   return (
-    <div className="flex-shrink-0 flex gap-2">
+    <div className="flex flex-shrink-0 gap-2">
       <ul className="flex flex-row items-center">
         {links.map(
           (link) =>
@@ -58,7 +58,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
   }, [sentinalRef]);
   return (
     <>
-      <div className="observer-element h-4 md:h-12" ref={sentinalRef}></div>
+      <div className="h-4 observer-element md:h-12" ref={sentinalRef}></div>
       <div
         className={`sticky-nav m-auto w-full h-6 flex flex-row justify-between items-center mb-2 md:mb-12 py-8 bg-opacity-60 ${
           !fullWidth ? 'max-w-3xl px-4' : 'px-4 md:px-24'
@@ -79,7 +79,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                 <rect
                   width="24"
                   height="24"
-                  className="fill-current text-black dark:text-white"
+                  className="text-black fill-current dark:text-white"
                 />
                 <rect width="24" height="24" fill="url(#paint0_radial)" />
                 <defs>
