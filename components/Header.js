@@ -3,6 +3,8 @@ import Link from 'next/link';
 import BLOG from '@/blog.config';
 import { useLocale } from '@/lib/locale';
 import ThemeToggler from './ThemeToggler';
+import Image from 'next/image';
+import logoImg from '../public/apple-touch-icon.png';
 
 const NavBar = () => {
   const locale = useLocale();
@@ -68,14 +70,10 @@ const Header = ({ navBarTitle, fullWidth }) => {
       >
         <div className="flex items-center">
           <Link href="/" aria-label={BLOG.title}>
-            <div className="h-6">
-              {/* <span
-                role="img"
-                aria-label="👨🏻‍💻"
-                style='font-family: "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols; line-height: 1em; white-space: nowrap;'
-              >
-                👨🏻‍💻
-              </span> */}
+            <div>
+              <Image src={logoImg} alt="freedom" width={50} height={50} />
+            </div>
+            {/* <div className="h-6">
               <svg
                 width="24"
                 height="24"
@@ -103,7 +101,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                   </radialGradient>
                 </defs>
               </svg>
-            </div>
+            </div> */}
           </Link>
           {navBarTitle ? (
             <p className="ml-2 font-medium text-day dark:text-night header-name">
