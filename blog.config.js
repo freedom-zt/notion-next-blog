@@ -1,17 +1,17 @@
 const BLOG = {
-  title: 'Freedom Blog',
-  author: 'zhangt',
+  title: 'ZT Blog',
+  author: 'freedom',
   email: 'zt345564023@gmail.com',
   // ↓ THIS BLOG LINK, NOT YOUR SOCIAL LINK ↓
   link: 'https://blog-freedom-zt.vercel.app', // do not end with '/'
-  description: '独立思考',
+  description: ' 独立思考',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif'] - !!deprecated, do not modify this
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy this blog in a folder
-  since: 2017, // If leave this empty, current year will be used.
+  since: 2016, // If leave this empty, current year will be used.
   postsPerPage: 10,
   sortByDate: true,
   showSummary: true,
@@ -20,7 +20,7 @@ const BLOG = {
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   prismjs_cdn: '', // default is cloudflare, if slow you can set 'https://npm.elemecdn.com/prismjs@1.29.0/components/'
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/Pokemon',
+  socialLink: 'https://github.com/freedom-zt',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '', // Remove the value or replace it with your own google site verification code
